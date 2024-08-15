@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" maxlength="100">
+        </li>
+        <li>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" maxlength="100">
+        </li>
+        <li>
+            <label for="email">E-mail</label>
+            <input type="email" id="email" required>
+        </li>
+        <li>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" id="nascimento" min="1920-01-01" max="2024-01-01">
+        </li>
+        <li>
+            <label for="sexo">Sexo:</label>
+
+            <input type="radio" id="masculino" name="sexo">
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo">
+            <label for="feminino">Feminino</label>
+        </li>
+        <li>
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco"  maxlength="200">
+        </li>
+        <li>
+            <label for="cep">CEP</label>
+            <input type="text"  maxlength="10">
+        </li>
+        <li>
+            <label for="corFavorita">Cor Favorita</label>
+            <input type="color" id="corFavorita">
+        </li>
+        <li>
+            <label for="estado">Estado do Sul</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione...</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="PR">Paraná</option>
+                <option value="RS">Rio Grande do Sul</option>
+            </select>
+        </li>
+    </ul>
+</body>
+</html>

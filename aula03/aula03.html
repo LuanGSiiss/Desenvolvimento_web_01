@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <section id="listas">
+        <!-- Lista ordenada -->
+        <ol>
+            <li>Lista</li>
+            <li>Ordenada</li>
+        </ol>
+        <!-- Lista não ordenada -->
+        <ul>
+            <li>Lista</li>
+            <li>Não</li>
+            <li>Ordenada</li>
+        </ul>
+        <!-- Lista de definição -->
+        <dl>
+            <dt>Casa</dt>
+                <dd>De Madeira</dd>
+            <dt>Casa</dt>
+                <dd>De Alvenaria</dd>
+        </dl>
+    </section>
+    
+    <section id="select">
+        <select name="estado" size="10">
+            <option value="">Selecion...</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="PR">Paraná</option>
+            <option value="RS">Rio Grande do Sul</option>
+        </select>
+        <br>
+        <select name="carros" id="carros">
+            <optgroup label="Popular">
+                <option value="up">Vw UP</option>
+                <option value="quid">Renaul Quid</option>
+            </optgroup>
+            <optgroup label="SUV">
+                <option value="tracker">GM Tracker</option>
+                <option value="hrv">Honda HRV</option>
+            </optgroup>
+        </select>
+    </section>
+
+    <section id="tabelas">
+        <table>
+            <tr> <!--linha-->
+                <th>Nome</th> <!--Celula de cabeçalho-->
+                <th>Idade</th>
+                <th>Curso</th>
+            </tr>
+            <tr>
+                <td>Luan Gerber Siiss</td> <!--CELULA / COLUNA-->
+                <td>19</td>
+                <td>Sistemas de informação</td>
+            </tr>
+            <tr>
+                <td>Sofia</td>
+                <td>21</td>
+                <td>Enfermagem</td>
+            </tr>
+            <tr>
+                <td>Pedro</td>
+                <td>22</td>
+                <td>Engenharia Elétrica</td>
+            </tr>
+        </table>
+    </section>
+
+</body>
+</html>
