@@ -10,6 +10,16 @@ td {
     height: 15px;
 }
 
+button {
+    margin-top: 5px;
+}
+
+
+/*CLASSES*/
+
 .media-nota {
     background-color: gray;
+}
+.media-final {
+    background-color: aquamarine;
 }
