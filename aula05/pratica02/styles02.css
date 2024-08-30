@@ -1,0 +1,15 @@
+table, th, td {
+    border: 1px solid black;
+    
+}
+th {
+    background-color: gray;
+}
+td {
+    width: 60px;
+    height: 15px;
+}
+
+.media-nota {
+    background-color: gray;
+}

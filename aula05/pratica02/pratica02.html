@@ -4,24 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        table, th, td {
-            border: 1px solid black;
-            
-        }
-        th {
-            background-color: gray;
-        }
-        td {
-            width: 60px;
-            height: 15px;
-        }
-    </style>
+    <link rel="stylesheet" href="styles02.css">
 </head>
 <body>
     
     <section id="tabelas">
-        <table>
+        <table id="boletim">
             <tr> 
                 <th rowspan="2">Aluno</th> 
                 <th colspan="3">Semestre 1</th>
@@ -112,7 +100,10 @@
                 <td>9</td>
             </tr>
         </table>
+        <button type="button" onclick="geraLinhaMedias()">Gerar média das notas</button>
+        <button type="button">Gerar média dos alunos</button>
     </section>
 
 </body>
+<script src="script02.js"></script>
 </html>
