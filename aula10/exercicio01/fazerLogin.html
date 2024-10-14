@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario para login</title>
+    </head>
+    <body>
+        <!-- LAB: Solicitar dados de pessoa e por meio do método POST enviar e gravar os dados no servidor -->
+        <h1> Informe seus dados de login</h1>
+        <form action="./exercicio01_init.php" method="POST">
+            <fieldset style="width: 40%;">
+                <legend>Dados da Pessoa:</legend>
+                <table style="width:100% border=0px">
+                    <p>
+                        <label for="usuario">Login(Usuário):</label>
+                        <input type="text" id="usuario" name="usuario" maxlenght="150" required/>
+                    </p>
+                    <p>
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha" maxlenght="150" required/>
+                    </p>
+
+                    <button type="submit">Enviar</button>
+                </table>
+            </fieldset>
+        </form> 
+    </body>
+</html>
